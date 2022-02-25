@@ -139,10 +139,6 @@ img {
     margin-top: 5px;
     border: 2px solid #d2d2d2;
 }
-img.imagem_conteudo{
-    margin-right: 10px;
-    float: left;
-}
 .destaque h3 {
     background: #b10333;
     color: #fff;
@@ -150,6 +146,13 @@ img.imagem_conteudo{
 .entrevista h3 {
     background: #b10333;
     color: #0a0907;
+}
+a:link, a:visited{
+    color: #b10333;
+    padding:2px;
+}
+a:hover {
+    color: #b10333;
 }
  h3 {
     text-transform: uppercase;
@@ -176,6 +179,7 @@ img.imagem_conteudo{
 }
 #lista-noticias li a p {
     font-size: 0.7em;
+    color: #000;
 }
 #lista-noticias li:hover {
     background: #eee;
